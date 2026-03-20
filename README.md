@@ -1,4 +1,4 @@
-## Hi, I'm Temirzhan
+## Hi, I'm Temrjan
 
 AI Engineer & Full-Stack Developer from Uzbekistan.
 
