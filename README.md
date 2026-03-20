@@ -47,8 +47,8 @@ Python, Claude API → github.com/temrjan/devops-agent
 Protocols Bot — Telegram bot for PDF/JPG protocol distribution to pharmacies.
 Python, aiogram → github.com/temrjan/protocols-bot
 
-Braintrain — MCP Memory Server for Claude Code. Persistent AI memory across sessions.
-TypeScript, MCP → github.com/temrjan/braintrain
+Biotact Mail — production mail server infrastructure for biotact.uz. Stalwart (SMTP/IMAP/JMAP), Snappymail webmail, Caddy reverse proxy, SPF/DKIM/DMARC, Docker Compose.
+Docker, Caddy, Stalwart → github.com/temrjan/biotact-mail
 
 ### Connect
 
