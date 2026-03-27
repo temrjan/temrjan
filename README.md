@@ -8,10 +8,11 @@ I build production AI systems in the AI-driven development paradigm — I archit
 
 I developed Codex — a system of code quality standards that both I and AI follow strictly during development. Every project goes through a strict pipeline:
 
-    Local development → git push → CI (lint + typecheck + tests) → CD (auto-deploy) → Production
+    Local development → AI review → git push → CI (lint + typecheck + tests) → CD (auto-deploy) → Production
 
 What Codex enforces:
 - Zero any types, strict TypeScript/mypy across all projects
+- AI code review before every push — correctness, security (OWASP), design, test quality
 - Conventional commits, automated CI/CD on every push
 - Architecture standards per stack: Express, FastAPI, React, Telegram Bots, RAG
 - Security audit on every repo: no leaked secrets, dependency scanning, CORS/rate-limit checks
