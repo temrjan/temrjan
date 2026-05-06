@@ -26,6 +26,7 @@ Merged pull requests in production projects:
 
 ### What I Build
 
+- **Crypto & Wallets** — EVM wallets, chain abstraction, transaction security engines (Rust + revm)
 - **RAG Systems** — semantic chunking, query enrichment, multi-tenant vector search, reranking
 - **AI Agents** — extraction pipelines, function calling, structured output, tool-augmented LLMs
 - **Telegram Mini Apps** — e-commerce inside Telegram with payments, CRM, referral systems
@@ -33,21 +34,23 @@ Merged pull requests in production projects:
 
 ### Tech Stack
 
-Python, FastAPI, TypeScript, React, Express, PostgreSQL, Redis, Docker, OpenAI, Qdrant, aiogram, Grammy
+Rust, Python, FastAPI, TypeScript, React, Tauri, PostgreSQL, Redis, Docker, OpenAI, Qdrant, aiogram
 
 ### Featured Projects
 
-**[biotact_core](https://github.com/temrjan/biotact_core)** — RAG consultant for health supplements. Semantic chunking, ExtractionAgent, CRM-to-prompt injection, order parser via Function Calling.
-Python, FastAPI, Qdrant, OpenAI
+**[rustok](https://github.com/temrjan/rustok)** — Ethereum wallet with chain abstraction + txguard security engine. Desktop (Tauri 2.0 + Leptos), iOS/Android, 6 EVM chains, BIP39, revm simulation, GoPlus threat intel. 112 tests, 0 failures.
+Rust, Tauri, Leptos, alloy-rs, revm · [rustokwallet.com](https://rustokwallet.com)
 
-**[sulum](https://github.com/temrjan/sulum)** — AI psychology consultant. RAG over psychotherapy literature, voice messages, subscriptions.
-Node.js, Express, Qdrant, OpenAI
+**[OltinPay](https://github.com/temrjan/OltinPay)** — Gold-backed fintech platform. Tokenized gold trading, real-time orderbook, market-maker bots, payment processing.
+TypeScript, React, Express, PostgreSQL · [oltinchain.com](https://oltinchain.com)
+
+**[znai-cloud](https://github.com/temrjan/znai-cloud)** — Multi-tenant SaaS for AI Telegram bots with RAG knowledge base. Upload docs → get a Telegram bot that answers from your data. Auth, quota, analytics, CI/CD.
+Python, FastAPI, React, Qdrant, PostgreSQL, Redis · [znai.cloud](https://znai.cloud)
+
+**[miniapp-biotact](https://t.me/BiotactBot)** — Production Telegram Mini App for health supplements. E-commerce with payments, CRM, admin panel, referral system, AI consultant via RAG.
+Python, FastAPI, React, aiogram
 
 **[codex](https://github.com/temrjan/codex)** — Code quality standards for AI-driven development. 14 standards covering architecture, pipeline, testing, security.
-
-**[devops-agent](https://github.com/temrjan/devops-agent)** — Manage servers via SSH through Telegram with Claude AI.
-
-**[braintrain](https://github.com/temrjan/braintrain)** — MCP Memory Server for Claude Code.
 
 ### Connect
 
