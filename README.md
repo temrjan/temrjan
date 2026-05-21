@@ -22,6 +22,7 @@ Merged pull requests in production projects:
 | **[marimo-team/marimo](https://github.com/marimo-team/marimo)** | [#8911](https://github.com/marimo-team/marimo/pull/8911) | fix(ai): buffer streaming preamble text before code fence appears |
 | **[s3rius/FastAPI-template](https://github.com/s3rius/FastAPI-template)** | [#246](https://github.com/s3rius/FastAPI-template/pull/246) | fix: update template CI to use uv and ruff instead of poetry and black |
 | **[remotion-dev/github-unwrapped](https://github.com/remotion-dev/github-unwrapped)** | [#231](https://github.com/remotion-dev/github-unwrapped/pull/231) | fix: remove duplicate weekdays in productivity wheel |
+| **[0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig)** | [#1778](https://github.com/0xPlaygrounds/rig/pull/1778) | feat(anthropic): support document citations end-to-end (request · response · streaming)
 | **[AnswerDotAI/fasthtml](https://github.com/AnswerDotAI/fasthtml)** | — | Contributor |
 
 ### What I Build
@@ -38,8 +39,8 @@ Rust, Python, FastAPI, TypeScript, React, Tauri, PostgreSQL, Redis, Docker, Open
 
 ### Featured Projects
 
-**[rustok](https://github.com/temrjan/rustok)** — Ethereum wallet with chain abstraction + txguard security engine. Desktop (Tauri 2.0 + Leptos), iOS/Android, 6 EVM chains, BIP39, revm simulation, GoPlus threat intel. 112 tests, 0 failures.
-Rust, Tauri, Leptos, alloy-rs, revm · [rustokwallet.com](https://rustokwallet.com)
+**[rustok](https://github.com/temrjan/rustok)** — Ethereum wallet with chain abstraction + txguard security engine. React Native mobile app (Android + iOS), Rust core, 6 EVM chains, BIP39, revm simulation, GoPlus threat intel. 517 tests, 0 failures.
+Rust, React Native, TypeScript, alloy-rs, revm · [rustokwallet.com](https://rustokwallet.com)
 
 **[OltinPay](https://github.com/temrjan/OltinPay)** — Gold-backed fintech platform. Tokenized gold trading, real-time orderbook, market-maker bots, payment processing.
 TypeScript, React, Express, PostgreSQL · [oltinchain.com](https://oltinchain.com)
